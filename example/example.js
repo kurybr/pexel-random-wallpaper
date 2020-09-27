@@ -11,10 +11,13 @@ const PexelsRandom = require('../lib/pexel-random-wallpaper');
     if(!fs.existsSync(directory)){ fs.mkdirSync(directory) }
 
     const client = new PexelsRandom({ path: directory, api: ''});
-    const image = await client.handleSearch('lavanda, africa, nature');
+    const image = await client.handleSearch('lavanda, africa, nature, family, friends, dogs, platypus');
 
     client.SetWallpaper(image)
    
+
+    client.Automatic();
+
 
 })();
 
