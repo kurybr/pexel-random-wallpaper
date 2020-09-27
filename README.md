@@ -10,17 +10,13 @@ Você pode buscar por imagens dentro das categorias que mais gosta.
 
 
 Ref: 
-- (Pexels API)[https://www.pexels.com/api/] - Para conseguir uma APIKEY você precisa criar uma conta na pexels. ( é Free )
+- [Pexels API](https://www.pexels.com/api/) - Para conseguir uma APIKEY você precisa criar uma conta na pexels. ( é Free )
 
 
 ```javascript
 
-    const client = new PexelsRandom({ 
-        api: 'INSERT_YOUR_APIKEY_HERE',
-        path: 'enter the location where you want to save the images '})
-
+    const client = new PexelsRandom({  api: 'INSERT_YOUR_APIKEY_HERE', path: 'enter the location where you want to save the images '})
     const image = client.handleSearch('enter the terms you want to search separated by commas')
-
     client.setWallpaper(image)
 
 ```
