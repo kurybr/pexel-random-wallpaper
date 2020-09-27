@@ -3,6 +3,7 @@
 Um serviço integrado com a api do site https://www.pexels.com para de forma randomica atualizar o wallpaper do computador.
 
 Pra quem gosta de sempre alternar entre os wallpapers do computador com belas imagens
+
 Você pode buscar por imagens dentro das categorias que mais gosta.
 
 
