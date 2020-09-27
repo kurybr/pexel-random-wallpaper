@@ -1,9 +1,10 @@
 {
   "name": "pexel-random-wallpaper",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./lib/pexel-random-wallpaper.js",
   "license": "MIT",
   "dependencies": {
+    "graph-fs": "^0.0.6",
     "pexels": "^1.0.1",
     "request": "^2.88.2",
     "typescript": "^4.0.3",
