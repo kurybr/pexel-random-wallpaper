@@ -1,0 +1,15 @@
+{
+  "name": "pexel-random-wallpaper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pexels": "^1.0.1",
+    "request": "^2.88.2",
+    "typescript": "^4.0.3",
+    "wallpaper": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.2"
+  }
+}
